@@ -29,3 +29,8 @@ cd dev-portfolio
 # Install dependencies
 npm install
 ```
+
+### Stockphotos
+
+- source: [Pixabay - Tastatur, EDV, Computer](https://pixabay.com/de/photos/tastatur-edv-computer-keyboard-3726583/)
+- source: [Pixabay - Programmierung, Code, Entwicklung](https://pixabay.com/de/photos/programmierung-code-entwicklung-583923/)

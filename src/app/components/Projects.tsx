@@ -13,7 +13,7 @@ export default function Projects() {
         </div>
       }
       rightContent={
-        <div className="relative w-full max-w-xl aspect-[230/225]">
+        <div className="relative w-full max-w-xl aspect-[1280/682]">
           <Image
             src="/code.jpg"
             alt="code"
