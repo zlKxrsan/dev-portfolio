@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import Link from 'next/link';
 
-const sections = ['homepage', 'about', 'skills', 'experience', 'projects', 'contact'];
+const sections = ['homepage', 'about', 'skills', 'projects', 'experience', 'contact'];
 
 export default function Navbar() {
   const [activeSection, setActiveSection] = useState<string | null>(null);

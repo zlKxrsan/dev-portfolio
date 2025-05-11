@@ -1,13 +1,32 @@
+import Section from "@/app/components/Section";
+import Image from "next/image";
+
 export default function Projects() {
-    return (
-      <section id="projects" className="min-h-screen flex items-center justify-center bg-gray-100">
-        <div className="max-w-3xl text-center px-4">
-          <h2 className="text-3xl font-bold mb-4">Projekte</h2>
-          <p className="text-gray-700">
-            Hier findest du eine Auswahl meiner bisherigen Arbeiten und Projekte.
-          </p>
+  return (
+    <Section
+      id="projects"
+      title="Projects"
+      leftContent={
+
+        <div className="flex flex-col mb-6">
+        <h1 className="text-xl font-bold">
+          Live-Demo:
+        </h1>
+        <p className="text-sm ml-6">
+          - Github, Sourceforge
+        </p>
         </div>
-      </section>
-    );
+      }
+      rightContent={
+              <div className="relative w-full max-w-xl aspect-[230/225]">
+                <Image
+                  src="/code.jpg"
+                  alt="code"
+                  fill
+                  className="object-cover rounded-lg shadow-lg"
+                />
+              </div>
+      }
+    />
+  );
   }
-  
