@@ -19,7 +19,7 @@ export default function Homepage() {
       rightContent={
         <div>
           <h1 className="text-4xl font-bold mb-4">
-            Hi, I'm <span className="text-lime-300">Lawan</span>
+            Hi, I&apos;m <span className="text-lime-300">Lawan</span>
           </h1>
           <p className="text-lg">
             CS-Student passionate about software development.
