@@ -29,24 +29,24 @@ export default function Section({
       <div className="flex flex-col lg:flex-row w-full max-w-5xl items-center justify-center gap-8">
         {/* Left content with animation */}
         <motion.div
-  className="w-full lg:w-1/2 flex items-center justify-center"
-  initial={{ opacity: 0, y: -50 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 1 }}
-  viewport={{ once: true, amount: 0.2 }}
->
-  {leftContent}
-</motion.div>
-{/* Right content with animation */}
-<motion.div
-  className="w-full lg:w-1/2 text-center lg:text-left text-white px-6"
-  initial={{ opacity: 0, y: 50 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 1 }}
-  viewport={{ once: true, amount: 0.2 }}
->
-  {rightContent}
-</motion.div>
+          className="w-full lg:w-1/2 flex items-center justify-center"
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true, amount: 0.2 }}
+        >
+          {leftContent}
+        </motion.div>
+        {/* Right content with animation */}
+        <motion.div
+          className="w-full lg:w-1/2 text-center lg:text-left text-white px-6"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true, amount: 0.2 }}
+        >
+          {rightContent}
+        </motion.div>
       </div>
     </section>
   );
